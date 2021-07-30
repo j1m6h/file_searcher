@@ -4,9 +4,10 @@ print("FILE SEARCHER")
 print("Type 'help' for a list of commands... \n")
 
 dir_path = os.path.dirname(os.path.realpath("/"))
-results = 0
 
 while True:
+    results = 0
+
     buf = input("Enter a file name : ")
 
     if buf == 'help':
